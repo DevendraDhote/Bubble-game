@@ -6,7 +6,7 @@ var modal = document.querySelector('#modal');
 
 var score = 0;
 var randomnum;
-var timer = 10;
+var timer = 60;
 var temp = ``;
 
 function body(){
