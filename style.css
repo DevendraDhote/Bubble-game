@@ -37,6 +37,14 @@ html, body{
     width: 450px;
 }
 
+#modal p{
+    font-size: 30px;
+    font-family: 'gilroy';
+    font-weight: bolder;
+    color: darkblue;
+    margin-top: 50px;
+}
+
 #modal h1{
     margin-top: 40px;
     color: darkblue;
