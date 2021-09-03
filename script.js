@@ -57,5 +57,5 @@ bottom.addEventListener('click', function(dets){
 });
 
 Clicked();
-// TimerFunc();
+TimerFunc();
 body();
