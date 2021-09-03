@@ -50,10 +50,7 @@ bottom.addEventListener('click', function(dets){
         bottom.innerHTML = "";
         temp = ``;
         body();
-        
-    }else{
-        bottom.innerHTML = ""; 
-    }    
+   }  
 });
 
 Clicked();
