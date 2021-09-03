@@ -3,6 +3,8 @@ var timerelem = document.querySelector('#timer');
 var click = document.querySelector('#click');
 var scoreelem = document.querySelector('#score');
 var modal = document.querySelector('#modal');
+var allscore = document.querySelector('#allscore');
+
 
 var score = 0;
 var randomnum;
@@ -24,6 +26,7 @@ function TimerFunc(){
             clearInterval()
             bottom.innerHTML = "";
             modal.style.display = 'initial';
+            allscore.textContent = `Your overall Score is : ${score}`;
         }
         else{
             timerelem.textContent = timer--;
