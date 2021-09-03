@@ -116,6 +116,9 @@ html, body{
         width: 343px;
         border-radius: 0px;
     }
+    
+    #modal p{
+        font-size: 20px !important;
 
     #top{
         height: 50px !important;
