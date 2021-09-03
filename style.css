@@ -118,7 +118,8 @@ html, body{
     }
     
     #modal p{
-        font-size: 20px !important;
+        font-size: 20px;
+    }
 
     #top{
         height: 50px !important;
